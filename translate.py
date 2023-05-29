@@ -5,18 +5,6 @@ import deepl
 # DeepL API credentials
 API_KEY = 'API_KEY'
 
-# Function to detect the source language of a text
-def detect_language(text):
-    translator = deepl.Translator(API_KEY)
-    result = translator.translate(text, target_lang='EN')
-    return result.detected_source_language
-
-# Function to translate text using DeepL API
-def translate_text(text, target_lang):
-    translator = deepl.Translator(API_KEY)
-    result = translator.translate(text, target_lang=target_lang)
-    return result.text
-
 # Function to translate a PDF file
 def translate_pdf(file_path, target_lang):
     translator = deepl.Translator(API_KEY)
@@ -41,9 +29,6 @@ def main():
 
     # Target language for translation
     target_language = input("Enter the target language code: ")
-
-    # Output file path for translated text
-    #output_file_path = r'C:\Users\iau3278\Downloads\test-en.pdf'
 
     # Translate the PDF file
     translate_pdf(pdf_file_path, target_language)
