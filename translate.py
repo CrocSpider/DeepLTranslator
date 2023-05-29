@@ -3,7 +3,7 @@ import requests
 import deepl
 
 # DeepL API credentials
-API_KEY = '7992972a-54c5-418a-6683-48b1392774fc:fx'
+API_KEY = 'API_KEY'
 
 # Function to detect the source language of a text
 def detect_language(text):
