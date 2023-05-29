@@ -23,13 +23,17 @@ This script allows you to translate PDF files using the DeepL API. It automatica
 
 1. Clone or download this repository.
 
-	```git clone https://github.com/CrocSpider/DeepLTranslator.git```
+	```
+    git clone https://github.com/CrocSpider/DeepLTranslator.git
+    ```
 
   
 
 2. Install the required packages by running the following command:
 
-	```pip install -r requirements.txt```
+	```
+    pip install -r requirements.txt
+    ```
 
   
   
@@ -48,7 +52,9 @@ This script allows you to translate PDF files using the DeepL API. It automatica
 
 3. Run the script by executing the following command:
 
-	```py translate.py```
+	```
+    py translate.py
+    ```
 
   
 
